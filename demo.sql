@@ -1,0 +1,5 @@
+-- Databricks notebook source
+-- MAGIC %sql
+-- MAGIC use bronze;
+-- MAGIC 
+-- MAGIC show tables;
