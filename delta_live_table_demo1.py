@@ -19,7 +19,7 @@
 # MAGIC def cust_prepared():
 # MAGIC   return (
 # MAGIC     dlt.read("cust_raw")
-# MAGIC        .select("region", "city", "customer_id")
+# MAGIC        .select("tax_id", "region", "city", "customer_id")
 # MAGIC   )
 # MAGIC 
 # MAGIC @dlt.table(

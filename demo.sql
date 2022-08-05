@@ -1,4 +1,19 @@
 -- Databricks notebook source
+-- MAGIC %sql
+-- MAGIC -- show databases;
+-- MAGIC -- use mydltdb;
+-- MAGIC show tables;
+
+-- COMMAND ----------
+
+desc formatted mydltdb.cust_prepared
+
+-- COMMAND ----------
+
+desc history bronze.delta_ajax01
+
+-- COMMAND ----------
+
 -- MAGIC %fs
 -- MAGIC ls /databricks-datasets/retail-org/customers/
 
