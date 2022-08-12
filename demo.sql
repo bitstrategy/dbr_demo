@@ -6,7 +6,7 @@
 
 -- COMMAND ----------
 
-desc formatted mydltdb.cust_prepared
+desc history mydltdb.cust_prepared
 
 -- COMMAND ----------
 
