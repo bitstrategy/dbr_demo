@@ -1,5 +1,10 @@
 -- Databricks notebook source
 -- MAGIC %sql
+-- MAGIC show tables in dwd;
+
+-- COMMAND ----------
+
+-- MAGIC %sql
 -- MAGIC -- show databases;
 -- MAGIC -- use mydltdb;
 -- MAGIC show tables;
